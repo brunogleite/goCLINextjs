@@ -1,7 +1,11 @@
+/*
+Copyright © 2024 NAME HERE <EMAIL ADDRESS>
+
+*/
 package main
 
-import "fmt"
+import "github.com/brunogleite/goCLINextjs/cmd"
 
 func main() {
-	fmt.Println("Hello, Go!")
+	cmd.Execute()
 }
